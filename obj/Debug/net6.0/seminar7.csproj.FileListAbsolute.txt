@@ -1,0 +1,15 @@
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\bin\Debug\net6.0\seminar7.exe
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\bin\Debug\net6.0\seminar7.deps.json
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\bin\Debug\net6.0\seminar7.runtimeconfig.json
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\bin\Debug\net6.0\seminar7.dll
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\bin\Debug\net6.0\seminar7.pdb
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.csproj.AssemblyReference.cache
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.GeneratedMSBuildEditorConfig.editorconfig
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.AssemblyInfoInputs.cache
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.AssemblyInfo.cs
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.csproj.CoreCompileInputs.cache
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.dll
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\refint\seminar7.dll
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.pdb
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\seminar7.genruntimeconfig.cache
+F:\STORAGE\Обучение\GeekBrains\Пакет Разработчик\1 четверть\4 Знакомство с языками программирования\Семинары\7\Seminar7\seminar7\obj\Debug\net6.0\ref\seminar7.dll
