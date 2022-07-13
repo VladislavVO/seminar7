@@ -44,10 +44,6 @@ ShowArray(MyArray);
 */
 
 
-
-
-
-
 /*
 Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 Например, задан массив:
@@ -55,6 +51,55 @@ ShowArray(MyArray);
 5 9 2 3
 8 4 2 4
 1 7 -> такого числа в массиве нет
+*/
+/*
+
+int[,] CreateRandom2dArray ()
+{
+    int[,] newArray = new int [4,4];
+
+    for ( int i = 0; i < 4; i++)    
+        for ( int j = 0; j < 4; j++)    
+            newArray[i,j] = new Random().Next(1,10);
+
+    return newArray;
+}
+
+void ShowArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        Console.Write(array[i,j] + " ");
+
+    Console.WriteLine();    
+    }
+}
+
+int ShowNumber(int[,] array, int row, int column)
+{
+    int number;
+    if (array.GetLength(0) < row && array.GetLength(1) < column) Console.WriteLine("такого числа в массиве нет");
+
+       for ( int i = 0; i <= row; i++)    
+        for ( int j = 0; j <= column; j++)    
+            if (i ==  && j == ) number = array[i,j];
+        
+        
+        number = 0;
+    return number;
+}
+
+Console.Write("Input row: ");
+int row = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input column: ");
+int column = Convert.ToInt32(Console.ReadLine());
+
+int[,] MyArray = CreateRandom2dArray();
+ShowArray(MyArray);
+ShowNumber(MyArray, row, column);
+
+Console.WriteLine(ShowNumber(MyArray));
 */
 
 /*
@@ -65,3 +110,49 @@ ShowArray(MyArray);
 8 4 2 4
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 */
+
+
+
+int[,] CreateRandom2dArray ()
+{
+    int[,] newArray = new int [4,4];
+
+    for ( int i = 0; i < 4; i++)    
+        for ( int j = 0; j < 4; j++)    
+            newArray[i,j] = new Random().Next(1,10);
+
+    return newArray;
+}
+
+void ShowArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        Console.Write(array[i,j] + " ");
+
+    Console.WriteLine();    
+    }
+}
+
+void ShowSredneeArifmeticheskoe(int[,] array)
+{
+
+    int sum = 0;
+    double sr;
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        sum = 0;
+        for (int j = 0; j < array.GetLength(1); j++)
+
+        sum = array[i,j] + sum;
+        sr = sum / 4;
+        Console.Write(sr + " ");
+
+    Console.WriteLine();    
+    }
+}
+
+int[,] MyArray = CreateRandom2dArray();
+ShowArray(MyArray);
+ShowSredneeArifmeticheskoe(MyArray);
