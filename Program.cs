@@ -52,8 +52,11 @@ ShowArray(MyArray);
 8 4 2 4
 1 7 -> такого числа в массиве нет
 */
-/*
 
+
+/*ПРИМЕЧАНИЕ: Нумерация рядов и столбцов в ShowNumber начинается с 0 */
+
+/*
 int[,] CreateRandom2dArray ()
 {
     int[,] newArray = new int [4,4];
@@ -76,18 +79,16 @@ void ShowArray(int[,] array)
     }
 }
 
-int ShowNumber(int[,] array, int row, int column)
+void ShowNumber(int[,] array, int row, int column)  
 {
-    int number;
-    if (array.GetLength(0) < row && array.GetLength(1) < column) Console.WriteLine("такого числа в массиве нет");
+    
+    if (4 <= row || 4 <= column) 
+    {
+    Console.WriteLine("такого числа в массиве нет");
+    }
 
-       for ( int i = 0; i <= row; i++)    
-        for ( int j = 0; j <= column; j++)    
-            if (i ==  && j == ) number = array[i,j];
-        
-        
-        number = 0;
-    return number;
+    else
+    Console.Write(array[row, column]);
 }
 
 Console.Write("Input row: ");
@@ -99,8 +100,8 @@ int[,] MyArray = CreateRandom2dArray();
 ShowArray(MyArray);
 ShowNumber(MyArray, row, column);
 
-Console.WriteLine(ShowNumber(MyArray));
 */
+
 
 /*
 Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
@@ -110,9 +111,7 @@ Console.WriteLine(ShowNumber(MyArray));
 8 4 2 4
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 */
-
-
-
+/*
 int[,] CreateRandom2dArray ()
 {
     int[,] newArray = new int [4,4];
@@ -137,22 +136,23 @@ void ShowArray(int[,] array)
 
 void ShowSredneeArifmeticheskoe(int[,] array)
 {
+    double sum;
+    Console.Write("Среднее арифметическое каждого столбца: ");
+    double[] SredneeArifmeticheskoeArray = new double [array.GetLength(0)];
 
-    int sum = 0;
-    double sr;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         sum = 0;
         for (int j = 0; j < array.GetLength(1); j++)
-
         sum = array[i,j] + sum;
-        sr = sum / 4;
-        Console.Write(sr + " ");
+          
+        SredneeArifmeticheskoeArray[i] = sum / array.GetLength(0);
 
-    Console.WriteLine();    
+        Console.Write(SredneeArifmeticheskoeArray[i] + "; ");
     }
 }
 
 int[,] MyArray = CreateRandom2dArray();
 ShowArray(MyArray);
 ShowSredneeArifmeticheskoe(MyArray);
+*/
